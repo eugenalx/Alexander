@@ -1,0 +1,244 @@
+body {
+margin: 0;
+background: #F4E8D9;
+font-family: Open Sans, sans-serif;
+color: #66504e;
+/*min-width: 900px;*/
+}
+
+.header img {
+padding: 10px 0 10px 20px;
+}
+
+.header1 img {
+padding: 10px 0 10px 20px;
+}
+
+.header ul {
+float: left;
+margin-right: 20px;
+margin-bottom: 5px;
+padding: 0;
+}
+
+.header1 ul {
+float: right;
+margin-left: 20px;
+margin-bottom: 0px;
+padding: 5;
+}
+
+.header2 ul{
+alignment-adjust:  central;
+margin-right: 500px;
+margin-bottom: 5px;
+padding: 0;
+}
+
+.header ul li {
+display: inline-block;
+margin-left: 20px;
+}
+
+
+.header1 ul li {
+display: inline-block;
+margin-right: 20px;
+}
+
+.header ul li a {
+text-decoration: none;
+color: #66504e;
+font-size: 1em;
+font-weight: 400;
+}
+
+.header1 ul li a {
+text-decoration: none;
+color: #66504e;
+font-size: 1em;
+font-weight: 400;
+}
+
+table, th, td p {
+    font-family: arial;
+    font-size: large;
+    border: 1px solid black;
+    border-color: inherit;
+    vertical-align: central;
+    font-weight: 200;}
+
+
+.photo {
+height: 300px;
+width: 100%;
+/*min-width: 900px;*/
+}
+
+.title {
+clear: left;            
+background: url(Images/placinta_1.jpg) no-repeat center top;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+position: relative;
+}
+
+.image1 {
+background: url(Images/croissants_cioco.jpg) no-repeat center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+}
+
+.image2 {
+background: url(Images/cozonac_cuptor.jpg) no-repeat center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+}
+
+.logo {
+position: absolute;
+width: 406px;
+height: 230px;
+left: 50%;
+top: 50%;
+margin: -120px 0 0 -190px; 
+}
+
+
+.content {
+max-width: 500px;
+width:80%;
+margin: auto;
+font-weight: 300;
+margin-bottom: 4em;
+}
+
+.section_title {
+text-align: center;
+font-size: 1.2em;
+margin-top: 2em;
+}
+
+.section_title h1 {
+margin:0;
+}
+
+
+p {
+text-align: justify;
+line-height: 1.8em;
+font-size: 1.2em;
+font-weight: 300;
+margin-top: 0;
+}
+
+.bullet {
+margin-top: 30px;
+font-family: Open Sans, sans-serif;
+font-weight: 300;
+color: #66504e;
+font-size: 1.4em;
+line-height: 50px;
+text-align: center;
+}
+
+.bullet:nth-child(2) {
+margin-top:0;
+}
+
+.bullet:before,
+.bullet:after,
+.inline_bullet:before,
+.inline_bullet:after{
+font-family: Oleo Script;
+content:"\2022" ;
+}
+
+.bullet:before {
+margin-right: 5px;
+}
+
+.bullet:after {
+margin-left: 5px;
+}
+
+
+.inline_bullet:before {
+margin-left: 7px;
+margin-right: 9px;
+}
+
+.inline_bullet:after {
+margin-right: 7px;
+margin-left: 9px;
+}
+
+.contact h2 {
+font-size: 1.4em;
+font-weight: 400;
+}
+
+h2.title_address {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+h2.title_hours {
+margin-top: 30px;
+margin-bottom: 5px;
+}
+
+.contact {
+padding: 40px 0 0 0;
+text-align: center;
+vertical-align: middle;
+}
+
+.contact ul {
+padding-left: 0;
+margin-left: 0;
+list-style-type: none;
+margin: 0;
+}
+
+.address_hours {
+display: inline-block;
+text-align: left;
+margin-right: 1em;
+}
+
+.contact td:first-child {
+padding-right: 10px;
+}
+
+.contact table {
+border-spacing:0;
+}
+
+.map{
+padding: 40px 0 0 0;
+text-align: right;
+width: 490px;
+height: 356px;
+}
+
+.footer {
+background: #857371;
+height: 100px;
+clear: both;
+text-align: center;
+padding-top: 10px;
+}
+
+.mobile_map {
+display: none;
+}
+
+
+
